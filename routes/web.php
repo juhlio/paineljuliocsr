@@ -238,3 +238,5 @@ route::get('locacoes/maquina/imagens/exlui/{imagem}', [LocacoesController::class
 
 route::get('api/semaphores', [ControleController::class, 'montaFarol']);
 route::get( 'api/tasksdodia', [ControleController::class, 'taskDoDia']);
+
+//rotas
